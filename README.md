@@ -3,7 +3,7 @@ A from-scratch implementation of `malloc()` and `free()` (named `alloc()` and `d
 
 Coded for and tested on Linux, but should work on any POSIX-compliant OS (ex. macOS).
 
-This project was completed as part of CMPT 201: Syetems Programming at Simon Fraser University.
+This project was completed as part of CMPT 201: Systems Programming at Simon Fraser University.
 
 ## Function Descriptions
 - `void allocopt(enum algs, int)` : Set the free-block search algorithm (`FIRST_FIT`, `BEST_FIT`, `WORST_FIT`) and the heap limit
