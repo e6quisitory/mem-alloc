@@ -5,7 +5,7 @@
 
 int main() {
 
-    // Example usage of alloc(), dealloc(), and allocopt() and allocinfo()
+    // Example usage of alloc(), dealloc(), allocopt() and allocinfo()
 
     allocopt(FIRST_FIT, INCREMENT);
 
@@ -35,7 +35,6 @@ int main() {
     dealloc(str1);
     currStats = allocinfo();
     printf("Free size: %d\n\n", currStats.free_size);
-
 
     printf("dealloc() str2 and str3\n");
     dealloc(str2);
